@@ -1,14 +1,14 @@
 #!/bin/sh
-# Builds a clean copy of the site for the TEMP GitHub repo, in ~/TEMP (or the folder you pass).
-#   sh tools/build-temp.sh            -> ~/TEMP
+# Builds a clean copy of the site for the TEMP GitHub repo (Port-Really), in ~/TEMP/Port Really (or the folder you pass).
+#   sh tools/build-temp.sh            -> ~/TEMP/Port Really
 #   sh tools/build-temp.sh ~/Desktop/TEMP
 # Includes the old folio images (_extracted/images) so the placeholders show online.
 # Leaves out the source video, 4K masters, check sheets and Mac/Office clutter.
-# Safe to re-run: it updates the copy and removes files you've deleted here (it keeps ~/TEMP/.git).
+# Safe to re-run: it updates the copy and removes files you've deleted here (it keeps the repo's .git and .gitattributes).
 
 set -e
 SRC="$(cd "$(dirname "$0")/.." && pwd)"
-OUT="${1:-$HOME/TEMP}"
+OUT="${1:-$HOME/TEMP/Port Really}"
 mkdir -p "$OUT"
 
 rsync -a --delete \
@@ -18,6 +18,7 @@ rsync -a --delete \
   --exclude ".DS_Store" \
   --exclude ".~lock.*" \
   --exclude ".gitignore" \
+  --exclude ".gitattributes" \
   "$SRC/" "$OUT/"
 
 # The local .gitignore hides the folio images; the TEMP repo needs them, so it gets its own.

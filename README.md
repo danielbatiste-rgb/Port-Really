@@ -82,7 +82,7 @@ GitHub limits: 100 MB per file (hard), aim for under 1 GB total. Git LFS files a
 ## Deploy (GitHub Pages)
 
 1. Create a repo and push this folder. `_extracted/images/` is git-ignored here.
-   For the **TEMP** repo, run `sh tools/build-temp.sh`: it makes a clean copy in `~/TEMP` that *includes* the folio images (so the placeholders show online) and leaves out `_source/`. Push `~/TEMP`. Re-run it after changes.
+   For the **TEMP** repo, run `sh tools/build-temp.sh`: it makes a clean copy in `~/TEMP/Port Really` (the Port-Really repo) that *includes* the folio images (so the placeholders show online) and leaves out `_source/`. Commit and push from there. Re-run it after changes. Keep the hidden `.nojekyll` file at the repo root, or GitHub Pages hides `_extracted/`.
 2. Repo → Settings → Pages → Deploy from branch → `main` / root.
 3. All paths are relative, so it works at `username.github.io/repo/` or on a custom domain.
 
