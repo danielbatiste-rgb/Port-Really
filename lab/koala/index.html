@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Koala Lab | Daniel Batiste</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <style>
+    .lab { padding: calc(var(--header-h) + 24px) var(--gutter) 120px; }
+    .lab h1 { font-family: var(--font-serif); font-size: clamp(2rem, 1.2rem + 3vw, 3.5rem); line-height: 1.05; margin-bottom: 8px; }
+    .lab > p { color: var(--muted); max-width: 60ch; margin-bottom: 32px; }
+    .panels { display: grid; gap: var(--gap); }
+    @media (min-width: 800px) { .panels { grid-template-columns: 1fr 1fr; } }
+    .panel { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+    .panel__bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid var(--line); min-height: 52px; }
+    .stage { aspect-ratio: 1 / 1; background: var(--bg); cursor: pointer; }
+    .stage svg { width: 100%; height: 100%; display: block; }
+    .panel__foot { padding: 12px 14px; color: var(--muted); border-top: 1px solid var(--line); }
+    .seg { display: inline-flex; border: 1px solid var(--fg); border-radius: 999px; overflow: hidden; }
+    .seg button { font: inherit; font-size: var(--fs-label); letter-spacing: var(--tracking-label); text-transform: uppercase; padding: 6px 12px; border: 0; background: transparent; color: var(--fg); cursor: pointer; }
+    .seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+    .sizes { margin-top: 48px; }
+    .sizes__row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 32px; padding: 24px 0; border-top: 1px solid var(--line); }
+    .sizes__row figure { margin: 0; display: grid; gap: 8px; justify-items: center; }
+    .sizes__row figcaption { color: var(--muted); }
+    .mini { cursor: pointer; }
+    .mini svg { width: 100%; height: 100%; display: block; }
+  </style>
+</head>
+<body data-root="../../">
+
+  <header class="site-header">
+    <a class="label nav-left" href="../../#work">Work</a>
+    <a class="wordmark" href="../../">Really</a>
+    <a class="label nav-right" href="../../info.html">Info</a>
+  </header>
+
+  <main class="lab">
+    <h1>Koala lab</h1>
+    <p class="label">Move the cursor (or touch) and the koala looks. Click or tap to make it hop. Not linked from the site.</p>
+
+    <div class="panels">
+      <section class="panel">
+        <div class="panel__bar"><span class="label">A: 2.5D layered SVG</span><span class="label" style="color:var(--muted)">~16 KB · no library</span></div>
+        <div class="stage" id="svg-stage"></div>
+        <p class="panel__foot label">Your exact artwork, split into 11 layers at different depths.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel__bar">
+          <span class="label">B: Live 3D</span>
+          <div class="seg" role="group" aria-label="3D look">
+            <button type="button" data-look="toon" aria-pressed="true">Toon</button>
+            <button type="button" data-look="fuzzy" aria-pressed="false">Fuzzy</button>
+          </div>
+        </div>
+        <div class="stage" id="gl-stage"></div>
+        <p class="panel__foot label">Built from shapes in code · three.js ~170 KB gz · stand-in for a sculpted model</p>
+      </section>
+    </div>
+
+    <section class="sizes">
+      <h2 class="label" style="margin-bottom:8px">At slot size</h2>
+      <div class="sizes__row">
+        <figure><div class="mini" id="mini-svg" style="width:96px;height:96px"></div><figcaption class="label">SVG · 96px desktop</figcaption></figure>
+        <figure><div class="mini" id="mini-svg-m" style="width:80px;height:80px"></div><figcaption class="label">SVG · 80px mobile</figcaption></figure>
+        <figure><div class="mini" id="mini-gl" style="width:96px;height:96px"></div><figcaption class="label">3D · 96px desktop</figcaption></figure>
+        <figure><div class="mini" id="mini-gl-m" style="width:80px;height:80px"></div><figcaption class="label">3D · 80px mobile</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <script type="module">
+    import { mountKoalaSVG } from "../../assets/js/koala-svg.js";
+    import { mountKoala3D } from "../../assets/js/koala-3d.js";
+
+    const src = "../../assets/media/mascot/koala.svg";
+    const $ = (id) => document.getElementById(id);
+
+    mountKoalaSVG($("svg-stage"), { src });
+    mountKoalaSVG($("mini-svg"), { src });
+    mountKoalaSVG($("mini-svg-m"), { src });
+
+    const big = mountKoala3D($("gl-stage"), { look: "toon" });
+    const minis = [mountKoala3D($("mini-gl"), { look: "toon" }), mountKoala3D($("mini-gl-m"), { look: "toon" })];
+
+    document.querySelectorAll("[data-look]").forEach((b) =>
+      b.addEventListener("click", () => {
+        document.querySelectorAll("[data-look]").forEach((x) => x.setAttribute("aria-pressed", x === b));
+        [big, ...minis].forEach((k) => k.setLook(b.dataset.look));
+      })
+    );
+  </script>
+</body>
+</html>

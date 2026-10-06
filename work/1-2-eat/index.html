@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>1-2-Eat | Daniel Batiste</title>
+  <meta name="description" content="1-2-Eat: brand design and creative direction by Daniel Batiste.">
+  <meta name="theme-color" content="#f1f1f1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&display=swap">
+
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+</head>
+<body data-root="../../">
+
+  <header class="site-header">
+    <a class="label link nav-left" href="../../#work">Work</a>
+    <a class="wordmark" href="../../">Really</a>
+    <a class="label link nav-right" href="../../info.html">Info</a>
+  </header>
+
+  <main>
+    <!-- Content is rendered from PROJECTS in assets/js/projects.js -->
+    <article class="project" data-project="1-2-eat"></article>
+
+    <section class="work" aria-label="More projects">
+      <div class="grid no-js" data-grid data-exclude="1-2-eat"></div>
+    </section>
+
+    <section class="contact contact--game" id="contact">
+      <div class="contact__head">
+        <h2 class="contact__lead">Let’s talk</h2>
+        <button class="px-koala contact__soh" type="button" data-pixel-koala aria-label="Soh, the sleepy koala. Back to top"></button>
+      </div>
+      <!-- Soh's skate game - loads when you scroll near (assets/js/soh-game.js) -->
+      <div class="contact__game" data-game></div>
+      <dl class="contact__list" data-contact></dl>
+      <footer class="site-footer">
+        <span class="site-footer__logo">Really.</span>
+        <p class="contact__credit"><span class="label">Studio Really ©<span data-year></span></span><br>by Daniel Batiste</p>
+      </footer>
+    </section>
+  </main>
+  <a class="corner corner--left label link" href="#contact">Contact <span class="arrow arrow--down arrow--bob" aria-hidden="true">↓</span></a>
+  <button class="corner corner--right px-koala" type="button" data-pixel-koala aria-label="Soh, the sleepy koala. Play his skate game"></button>
+
+  <script src="../../assets/js/projects.js"></script>
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>

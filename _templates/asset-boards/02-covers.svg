@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5480 5980">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f1f1f1;
+      }
+
+      .st1 {
+        font-size: 40px;
+      }
+
+      .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st1, .st2, .st4, .st5 {
+        fill: #1a1a1a;
+      }
+
+      .st1, .st3, .st4 {
+        font-family: HelveticaNeue, 'Helvetica Neue';
+      }
+
+      .st2 {
+        font-size: 54px;
+      }
+
+      .st2, .st5 {
+        font-family: HelveticaNeue-Bold, 'Helvetica Neue';
+        font-weight: 700;
+      }
+
+      .st3 {
+        fill: #6b6b6b;
+        font-size: 56px;
+      }
+
+      .st4 {
+        font-size: 32px;
+      }
+
+      .st6 {
+        fill: #e7e7e3;
+        stroke: #a9a9a9;
+        stroke-width: 4px;
+      }
+
+      .st5 {
+        font-size: 130px;
+      }
+    </style>
+  </defs>
+  <rect class="st0" width="5480" height="5980"/>
+  <text class="st5" transform="translate(160 290)"><tspan x="0" y="0">Really · Grid covers</tspan></text>
+  <text class="st3" transform="translate(160 410)"><tspan x="0" y="0">assets/media/projects/&lt;project&gt;/cover.webp · WebP q80</tspan></text>
+  <g id="cover-modern-health-dynamics">
+    <rect class="st6" x="160" y="580" width="1200" height="1500"/>
+    <text class="st2" transform="translate(214 666)"><tspan x="0" y="0">Modern Health Dynamics</tspan></text>
+    <text class="st1" transform="translate(214 739)"><tspan x="0" y="0">cover.webp · 1200×1500 (4:5)</tspan></text>
+    <text class="st1" transform="translate(214 793)"><tspan x="0" y="0">≤ 200 KB</tspan></text>
+    <text class="st4" transform="translate(214 847)"><tspan x="0" y="0">projects/modern-health-dynamics/</tspan></text>
+  </g>
+  <g id="cover-moment">
+    <rect class="st6" x="1480" y="580" width="1200" height="1200"/>
+    <text class="st2" transform="translate(1534 666)"><tspan x="0" y="0">Moment*</tspan></text>
+    <text class="st1" transform="translate(1534 739)"><tspan x="0" y="0">cover.webp · 1200×1200 (1:1)</tspan></text>
+    <text class="st1" transform="translate(1534 793)"><tspan x="0" y="0">≤ 180 KB</tspan></text>
+    <text class="st4" transform="translate(1534 847)"><tspan x="0" y="0">projects/moment/</tspan></text>
+  </g>
+  <g id="cover-estee-lauder-co">
+    <rect class="st6" x="2800" y="580" width="1200" height="1600"/>
+    <text class="st2" transform="translate(2854 666)"><tspan x="0" y="0">Estée Lauder Companies</tspan></text>
+    <text class="st1" transform="translate(2854 739)"><tspan x="0" y="0">cover.webp · 1200×1600 (3:4)</tspan></text>
+    <text class="st1" transform="translate(2854 793)"><tspan x="0" y="0">≤ 220 KB</tspan></text>
+    <text class="st4" transform="translate(2854 847)"><tspan x="0" y="0">projects/estee-lauder-co/</tspan></text>
+  </g>
+  <g id="cover-lmnd">
+    <rect class="st6" x="4120" y="580" width="1200" height="960"/>
+    <text class="st2" transform="translate(4174 666)"><tspan x="0" y="0">LMND</tspan></text>
+    <text class="st1" transform="translate(4174 739)"><tspan x="0" y="0">cover.webp · 1200×960 (5:4)</tspan></text>
+    <text class="st1" transform="translate(4174 793)"><tspan x="0" y="0">≤ 160 KB</tspan></text>
+    <text class="st4" transform="translate(4174 847)"><tspan x="0" y="0">projects/lmnd/</tspan></text>
+  </g>
+  <g id="cover-co-lab">
+    <rect class="st6" x="160" y="2300" width="1200" height="1500"/>
+    <text class="st2" transform="translate(214 2386)"><tspan x="0" y="0">CO_LAB</tspan></text>
+    <text class="st1" transform="translate(214 2459)"><tspan x="0" y="0">cover.webp · 1200×1500 (4:5)</tspan></text>
+    <text class="st1" transform="translate(214 2513)"><tspan x="0" y="0">≤ 200 KB</tspan></text>
+    <text class="st4" transform="translate(214 2567)"><tspan x="0" y="0">projects/co-lab/</tspan></text>
+  </g>
+  <g id="cover-sehat">
+    <rect class="st6" x="1480" y="2300" width="1200" height="1800"/>
+    <text class="st2" transform="translate(1534 2386)"><tspan x="0" y="0">Sehat</tspan></text>
+    <text class="st1" transform="translate(1534 2459)"><tspan x="0" y="0">cover.webp · 1200×1800 (2:3)</tspan></text>
+    <text class="st1" transform="translate(1534 2513)"><tspan x="0" y="0">≤ 250 KB</tspan></text>
+    <text class="st4" transform="translate(1534 2567)"><tspan x="0" y="0">projects/sehat/</tspan></text>
+  </g>
+  <g id="cover-dia">
+    <rect class="st6" x="2800" y="2300" width="1200" height="1200"/>
+    <text class="st2" transform="translate(2854 2386)"><tspan x="0" y="0">DIA</tspan></text>
+    <text class="st1" transform="translate(2854 2459)"><tspan x="0" y="0">cover.webp · 1200×1200 (1:1)</tspan></text>
+    <text class="st1" transform="translate(2854 2513)"><tspan x="0" y="0">≤ 180 KB</tspan></text>
+    <text class="st4" transform="translate(2854 2567)"><tspan x="0" y="0">projects/dia/</tspan></text>
+  </g>
+  <g id="cover-tramonto">
+    <rect class="st6" x="4120" y="2300" width="1200" height="1600"/>
+    <text class="st2" transform="translate(4174 2386)"><tspan x="0" y="0">Tramonto</tspan></text>
+    <text class="st1" transform="translate(4174 2459)"><tspan x="0" y="0">cover.webp · 1200×1600 (3:4)</tspan></text>
+    <text class="st1" transform="translate(4174 2513)"><tspan x="0" y="0">≤ 220 KB</tspan></text>
+    <text class="st4" transform="translate(4174 2567)"><tspan x="0" y="0">projects/tramonto/</tspan></text>
+  </g>
+  <g id="cover-1-2-eat">
+    <rect class="st6" x="160" y="4220" width="1200" height="960"/>
+    <text class="st2" transform="translate(214 4306)"><tspan x="0" y="0">1-2-Eat</tspan></text>
+    <text class="st1" transform="translate(214 4379)"><tspan x="0" y="0">cover.webp · 1200×960 (5:4)</tspan></text>
+    <text class="st1" transform="translate(214 4433)"><tspan x="0" y="0">≤ 160 KB</tspan></text>
+    <text class="st4" transform="translate(214 4487)"><tspan x="0" y="0">projects/1-2-eat/</tspan></text>
+  </g>
+  <g id="cover-elevo">
+    <rect class="st6" x="1480" y="4220" width="1200" height="1500"/>
+    <text class="st2" transform="translate(1534 4306)"><tspan x="0" y="0">Elevo</tspan></text>
+    <text class="st1" transform="translate(1534 4379)"><tspan x="0" y="0">cover.webp · 1200×1500 (4:5)</tspan></text>
+    <text class="st1" transform="translate(1534 4433)"><tspan x="0" y="0">≤ 200 KB</tspan></text>
+    <text class="st4" transform="translate(1534 4487)"><tspan x="0" y="0">projects/elevo/</tspan></text>
+  </g>
+  <g id="cover-hou-sek">
+    <rect class="st6" x="2800" y="4220" width="1200" height="1200"/>
+    <text class="st2" transform="translate(2854 4306)"><tspan x="0" y="0">Hou Sek</tspan></text>
+    <text class="st1" transform="translate(2854 4379)"><tspan x="0" y="0">cover.webp · 1200×1200 (1:1)</tspan></text>
+    <text class="st1" transform="translate(2854 4433)"><tspan x="0" y="0">≤ 180 KB</tspan></text>
+    <text class="st4" transform="translate(2854 4487)"><tspan x="0" y="0">projects/hou-sek/</tspan></text>
+  </g>
+  <g id="cover-miscellaneous">
+    <rect class="st6" x="4120" y="4220" width="1200" height="1600"/>
+    <text class="st2" transform="translate(4174 4306)"><tspan x="0" y="0">Misc</tspan></text>
+    <text class="st1" transform="translate(4174 4379)"><tspan x="0" y="0">cover.webp · 1200×1600 (3:4)</tspan></text>
+    <text class="st1" transform="translate(4174 4433)"><tspan x="0" y="0">≤ 220 KB</tspan></text>
+    <text class="st4" transform="translate(4174 4487)"><tspan x="0" y="0">projects/miscellaneous/</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="5760" height="9570" viewBox="0 0 5760 9570">
+<!-- Really asset board: every box is at true export size (1px = 1px). Box ids match the file names. -->
+<rect width="5760" height="9570" fill="#f1f1f1"/>
+<text x="160" y="290" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="130" font-weight="800" fill="#1a1a1a">Really · Hou Sek</text>
+<text x="160" y="410" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="56" fill="#6b6b6b">assets/media/projects/hou-sek/  ·  WebP q80  ·  files numbered in page order</text>
+<g id="hero">
+  <rect x="160" y="580" width="2400" height="1350" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+  <rect x="820.0" y="580" width="1080" height="1350" fill="none" stroke="#d0021b" stroke-width="4" stroke-dasharray="24 16"/>
+  <text x="840.0" y="1906" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="34" fill="#d0021b">phone crop 4:5</text>
+  <text x="232" y="695" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#1a1a1a">hero.webp (top image)</text>
+  <text x="232" y="792" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="400" fill="#1a1a1a">2400×1350 · ≤ 400 KB</text>
+</g>
+<g id="file-01">
+  <rect x="2680" y="580" width="2400" height="1350" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="2752" y="695" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#1a1a1a">01.webp</text>
+  <text x="2752" y="792" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="400" fill="#1a1a1a">full width · 2400×1350 · ≤ 400 KB</text>
+</g>
+<g id="file-02">
+  <rect x="160" y="2050" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="223" y="2151" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">02.webp</text>
+  <text x="223" y="2236" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (left) · 1400×1750</text>
+  <text x="223" y="2299" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-03">
+  <rect x="1680" y="2050" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="1743" y="2151" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">03.webp</text>
+  <text x="1743" y="2236" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (right) · 1400×1750</text>
+  <text x="1743" y="2299" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-04">
+  <rect x="3200" y="2050" width="2400" height="1350" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="3272" y="2165" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#1a1a1a">04.webp</text>
+  <text x="3272" y="2262" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="400" fill="#1a1a1a">full width · 2400×1350 · ≤ 400 KB</text>
+</g>
+<g id="file-05">
+  <rect x="160" y="3920" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="223" y="4021" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">05.webp</text>
+  <text x="223" y="4106" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (left) · 1400×1750</text>
+  <text x="223" y="4169" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-06">
+  <rect x="1680" y="3920" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="1743" y="4021" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">06.webp</text>
+  <text x="1743" y="4106" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (right) · 1400×1750</text>
+  <text x="1743" y="4169" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-07">
+  <rect x="3200" y="3920" width="2400" height="1350" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="3272" y="4035" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#1a1a1a">07.webp</text>
+  <text x="3272" y="4132" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="400" fill="#1a1a1a">full width · 2400×1350 · ≤ 400 KB</text>
+</g>
+<g id="file-08">
+  <rect x="160" y="5790" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="223" y="5891" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">08.webp</text>
+  <text x="223" y="5976" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (left) · 1400×1750</text>
+  <text x="223" y="6039" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-09">
+  <rect x="1680" y="5790" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="1743" y="5891" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">09.webp</text>
+  <text x="1743" y="5976" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (right) · 1400×1750</text>
+  <text x="1743" y="6039" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-10">
+  <rect x="3200" y="5790" width="2400" height="1350" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="3272" y="5905" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#1a1a1a">10.webp</text>
+  <text x="3272" y="6002" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="400" fill="#1a1a1a">full width · 2400×1350 · ≤ 400 KB</text>
+</g>
+<g id="file-11">
+  <rect x="160" y="7660" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="223" y="7761" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">11.webp</text>
+  <text x="223" y="7846" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (left) · 1400×1750</text>
+  <text x="223" y="7909" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+<g id="file-12">
+  <rect x="1680" y="7660" width="1400" height="1750" fill="#e7e7e3" stroke="#a9a9a9" stroke-width="4"/>
+
+  <text x="1743" y="7761" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="700" fill="#1a1a1a">12.webp</text>
+  <text x="1743" y="7846" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">pair (right) · 1400×1750</text>
+  <text x="1743" y="7909" font-family="Archivo, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="47" font-weight="400" fill="#1a1a1a">≤ 300 KB</text>
+</g>
+</svg>

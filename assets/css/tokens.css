@@ -1,0 +1,57 @@
+/* ==========================================================================
+   DESIGN TOKENS - brand colours, type and spacing live here.
+   Swap these when the final identity lands; everything else inherits.
+   ========================================================================== */
+
+:root {
+  /* Colour (neutral for now) */
+  --bg: #f1f1f1;
+  --fg: #111111;
+  --muted: #6e6e6e;
+  --line: rgba(17, 17, 17, 0.14);
+  --on-media: #f1f1f1;
+  --placeholder: #ecebe7;
+
+  /* Type */
+  --font-sans: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+
+  --fs-label: 0.875rem;                             /* nav, labels, tags: 14px */
+  --fs-small: 0.9375rem;                            /* 15px */
+  --fs-body: clamp(1.125rem, 0.95rem + 0.6vw, 1.5rem);   /* serif body 18 → 24 */
+  --fs-card: clamp(1rem, 0.94rem + 0.2vw, 1.125rem);     /* grid captions */
+  --fs-statement: clamp(2.25rem, 1.2rem + 4.6vw, 5.75rem);
+  --fs-intro: clamp(1.75rem, 1rem + 2.6vw, 3.75rem);     /* statement copy + "Let’s talk" */
+
+  --tracking-label: 0.06em;
+
+  /* Spacing */
+  --gutter: 16px;          /* page side margin */
+  --gap: 10px;             /* grid column gap */
+  --row-gap: 32px;         /* grid row gap */
+  --section: clamp(80px, 12vw, 200px);
+  --radius: 6px;
+  --header-h: 60px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);   /* long, soft settle */
+}
+
+/* Tablet */
+@media (min-width: 800px) {
+  :root {
+    --gutter: 20px;
+    --gap: 20px;
+    --row-gap: 44px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  :root {
+    --gutter: 24px;
+    --gap: 24px;
+    --row-gap: 56px;
+  }
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Really | Daniel Batiste, Brand Design and Creative Direction</title>
+  <meta name="description" content="Really: the portfolio of Daniel Batiste, brand design and creative direction.">
+  <meta name="theme-color" content="#f1f1f1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&display=swap">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-root="" class="on-hero on-hero-low">
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a class="label link nav-left" href="#work">Work</a>
+    <a class="wordmark" href="./">Really</a>
+    <a class="label link nav-right" href="info.html">Info</a>
+  </header>
+
+  <main>
+
+    <!-- ===== 01 Hero - slides are set in assets/js/projects.js (HERO) ===== -->
+    <section class="hero" data-hero aria-label="Selected work"></section>
+
+    <!-- ===== 02 Statement - copy set in projects.js
+         Layouts (class on the section, or try with ?statement=above|inline|stacked|row in the URL):
+           statement--above  : Oko centred on top, the sentence below as a balanced centred column
+           statement--inline : Oko sits inside the sentence like a word (centred)
+           (no modifier)     : copy above + below, Oko locked to the section's centre
+           statement--row    : copy left + right of Oko (tablet up) ===== -->
+    <section class="statement statement--above" aria-label="Introduction">
+      <div class="statement__inner">
+        <p class="statement__text statement__text--top" data-statement="before"></p>
+        <button class="statement__koala" type="button" data-mascot aria-label="Oko, tap to say hi"></button>
+        <p class="statement__text statement__text--bottom" data-statement="after"></p>
+      </div>
+    </section>
+
+
+    <!-- ===== Extra sections go here, before the grid ===== -->
+
+    <!-- ===== 03 Work grid - cards come from PROJECTS in projects.js ===== -->
+    <section class="work" id="work">
+      <div class="work__head">
+        <h2 class="label">Selected work</h2>
+        <p class="label work__tagline"><span>Daniel Batiste</span><br>Brand Design and Creative Direction</p>
+      </div>
+      <div class="grid no-js" data-grid></div>
+    </section>
+
+    <!-- ===== 04 Contact ===== -->
+    <section class="contact contact--game" id="contact">
+      <div class="contact__head">
+        <h2 class="contact__lead">Let’s talk</h2>
+        <button class="px-koala contact__soh" type="button" data-pixel-koala aria-label="Soh, the sleepy koala. Back to top"></button>
+      </div>
+      <!-- Soh's skate game - loads when you scroll near (assets/js/soh-game.js) -->
+      <div class="contact__game" data-game></div>
+      <dl class="contact__list" data-contact></dl>
+      <footer class="site-footer">
+        <span class="site-footer__logo">Really.</span>
+        <p class="contact__credit"><span class="label">Studio Really ©<span data-year></span></span><br>by Daniel Batiste</p>
+      </footer>
+    </section>
+
+  </main>
+  <!-- ===== Fixed corners: Contact ↓ (left) + pixel koala (right) ===== -->
+  <a class="corner corner--left label link" href="#contact">Contact <span class="arrow arrow--down arrow--bob" aria-hidden="true">↓</span></a>
+  <button class="corner corner--right px-koala" type="button" data-pixel-koala aria-label="Soh, the sleepy koala. Play his skate game"></button>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
